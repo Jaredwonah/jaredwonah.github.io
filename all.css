@@ -1,0 +1,103 @@
+body{
+	background: lightgrey;
+}
+
+.topNav{
+	/*border: 1px solid black; */
+	float: left;
+	width: 100%;
+}
+
+.topRight{
+	margin-right: 60px; 
+}
+
+.center-horizontal{
+	position: relative; 
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.center-vertical{
+	position: relative; 
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.topNav ul{
+	/*border: 1px solid blue;*/
+	margin: 0;
+	padding: 0;
+	float: left; 
+}
+
+.topNav ul li{
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: bold;
+	/*border: 1px solid green;*/
+	float: left;
+    color: black; 
+    cursor: pointer;
+}
+
+.topNav ul li a{
+	text-decoration: none; 
+/*	color: black;*/
+}
+
+.topLink{
+    color: black; 
+}
+
+.active{
+    color: grey; 
+/*    border: 1px solid blue; */
+}
+
+.searchDiv{
+	/*border: 1px solid black;*/
+	float: right;
+}
+
+.textHead{
+	/*border: 1px solid black;*/
+	clear: left; 
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+
+.search{
+	/*padding: 10px 12px;*/
+}
+
+.footer{
+	float: left;
+	width: 100%;
+	clear: left;
+	position: relative;
+	/*border: 1px solid red;*/
+	height: 98px;
+	margin-top: 20px;
+}
+
+.footCol{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.subFoot{
+	width: 90%;
+	font-size: 20px;
+}
+
+.icons{
+	font-size:60px;}
+
+.iconRight{
+	margin-right: 10px;
+}

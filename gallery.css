@@ -1,0 +1,50 @@
+.imageWrapper{
+/*	background: blue; */
+/*	float: left;*/
+    clear: left; 
+	width: 95%;
+	position: relative;
+/*	height: 200px;*/
+}
+
+.image{
+/*	float: left;*/
+	width: 18.2%;
+	position: relative;
+/*    border: 1px solid red; */
+    transition: 0.5s; 
+}
+
+.image2{
+/*	left: 20.4%;*/
+    left: 2%;
+}
+
+.image3{
+/*	left: 40.8%;*/
+    left: 4%; 
+}
+
+.image4{
+/*	left: 61.2%;*/
+    left: 6%; 
+}
+
+.image5{
+    left: 8%; 
+}
+
+.image:hover{
+/*    border: 2px solid grey;*/
+    box-shadow: 3px 6px #888888;
+}
+
+.top{
+    margin-top: 20px; 
+}
+
+/*
+body{
+    padding: 0;
+    margin: 0; 
+}*/

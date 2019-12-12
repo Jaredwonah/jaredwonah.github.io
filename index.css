@@ -1,0 +1,57 @@
+
+.video{
+	text-align: center; 
+	/*border: 1px solid black; */
+	clear: left;
+}
+
+.shoeSlide{
+	display: none;
+}
+
+.slidWrapper{
+	text-align: center; 
+	/*border: 1px solid black;*/
+	float: left;
+	width: 50%;
+}
+
+.description{
+	clear: left;
+	width: 100%;
+	border: 1px solid black;
+	float: left;
+}
+
+.column{
+	width: 50%;
+	float: left;
+	text-align: center; 
+}
+
+.subText{
+	font-size: 18px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .vFrame{
+  	width: 800px;
+  	height: 449px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .vFrame{
+  	width: 600px;
+  	height: 337px;
+  }
+}
+

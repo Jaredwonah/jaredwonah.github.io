@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Website</title>
+	<link rel = "stylesheet" href = "index.css">
+	<link rel = "stylesheet" href = "all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class = "topNav">
+		<ul class = "center-horizontal">
+			<li class = "topRight"><a href = "#" class = "active">Home</a></li>
+			<li class = "topRight"><a href = "gallery.html" class = "topLink">Gallery</a></li>
+			<li class = "topRight"><a href = "about-us.html" class = "topLink">About Us</a></li>
+			<li class = "topRight"><a href = "contact-us.html" class = "topLink">Contact Us</a></li>
+		</ul>
+
+		<div class = "searchDiv">
+			<input type = "text" class = "search" placeholder="Search...">
+
+		</div>
+	</div>
+
+	<h1 class = "textHead">JR'S</h1>
+
+	<div class = "video">
+		<iframe width="1000" height="561" src="https://www.youtube.com/embed/IetMDd_lJ2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class = "vFrame"></iframe>
+	</div>
+
+	<div class = "slidWrapper center-horizontal">
+		<img src = "nike.png" width = "100%" class = "shoeSlide">
+		<img src = "shoe 1.jpg" width = "100%" class = "shoeSlide">
+		<img src = "shoe 4.jpg" width = "100%" class = "shoeSlide">
+		<img src = "shoe 4.jpg" width = "100%" class = "shoeSlide">
+		<img src = "shoe 23.jpg" width = "100%" class = "shoeSlide">
+	</div>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("shoeSlide");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+
+	<div class = "description">
+		<div class = "column">
+			<h1><u>Shoes</u></h1>
+			<div class = "subText">
+				Jordan new release<br>
+				Jordan 1<br>
+				Chuck Taylor Allstars<br>
+				Air Force 1's<br>
+			</div>
+			
+		</div>
+
+		<div class = "column">
+			<h1><u>featured</u></h1>
+			<div class = "subText">
+				Jordan shoes<br>
+				Nike shoes<br>
+				chuck taylors<br>
+				Nike Air Force 1's<br>
+			</div>
+		</div>
+	</div>
+
+	<div class = "footer">
+		<div class = "footCol">
+			<div class = "subFoot center-horizontal">
+				Student Discount<br>
+				Sign up for mail<br>
+				Become a member<br>
+				Site feedback<br>
+			</div>
+		</div>
+
+		<div class = "footCol">
+			<div class = "subFoot center-horizontal">
+				Get help<br>
+				Shipping<br>
+				Payment<br>
+			</div>
+		</div>
+
+		<div class = "footCol center-vertical">
+			<div class = "subFoot center-horizontal">
+				<i class="fa fa-facebook-f icons"></i> &nbsp;&nbsp; 
+				<i class="fa fa-twitter icons"></i>  &nbsp;&nbsp;
+				<i class="fa fa-instagram icons"></i>  &nbsp;&nbsp;
+				<i class="fa fa-youtube icons"></i>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
